@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Editar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pessoa of pessoas">
+      <td *ngIf="pessoa.idade < 5">{{ pessoa.id }}</td>
+      <td *ngIf="pessoa.idade < 5">{{ pessoa.nome }}</td>
+      <td *ngIf="pessoa.idade < 5">{{ pessoa.idade }}</td>
+      <td *ngIf="pessoa.idade < 5">
+        <button (click)="editarPessoa(pessoa.id)">Editar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Pessoa {}","map":{"version":3,"names":["Pessoa"],"sources":["/home/hisham/Documents/UniAmerica/Assincrona/Tabela/src/app/pessoa.model.ts"],"sourcesContent":["export class Pessoa {\n  id!: number;\n  nome!: string;\n  idade!: number;\n}\n"],"mappings":"AAAA,OAAM,MAAOA,MAAM"},"metadata":{},"sourceType":"module","externalDependencies":[]}

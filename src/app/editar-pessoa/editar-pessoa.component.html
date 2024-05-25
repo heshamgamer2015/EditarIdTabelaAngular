@@ -1,0 +1,10 @@
+<div *ngIf="pessoa">
+    <h2>Editar Pessoa</h2>
+    <p>ID: {{ pessoa.id }}</p>
+    <p>Nome: {{ pessoa.nome }}</p>
+    <p>Idade Atual: {{ pessoa.idade }}</p>
+    <label for="novaIdade">Nova Idade:</label>
+    <input id="novaIdade" [(ngModel)]="novaIdade" type="number">
+    <button (click)="salvar()">Salvar</button>
+  </div>
+  
